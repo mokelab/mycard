@@ -6,7 +6,7 @@
   "homepage": "/mycard",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && cp docs/index.html docs/404.html",
     "lint": "eslint .",
     "preview": "vite preview"
   },
